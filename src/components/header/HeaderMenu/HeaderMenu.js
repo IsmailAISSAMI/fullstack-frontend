@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import styles from "./HeaderMenu.module.scss";
 
-const Headermenu = () => {
+const HeaderMenu = () => {
     return (
         <div className={styles.header__menu}>
             <nav>
@@ -34,4 +34,4 @@ const Headermenu = () => {
     );
 }
 
-export default Headermenu;
+export default HeaderMenu;
