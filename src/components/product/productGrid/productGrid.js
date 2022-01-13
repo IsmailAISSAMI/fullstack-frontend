@@ -22,7 +22,7 @@ const ProductGrid = () => {
             {
                 data.getProducts.map((product) => (
                     <ProductCard 
-                        id={product.id}
+                        key={product.id}
                         title={product.title}
                         price={product.price}
                         description={product.description}
