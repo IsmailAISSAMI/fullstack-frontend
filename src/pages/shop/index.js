@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { getProducts } from "../../graphql/queries/products";
 import { useQuery } from "@apollo/react-hooks";
 

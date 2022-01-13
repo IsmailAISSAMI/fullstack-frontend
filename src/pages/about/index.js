@@ -1,10 +1,10 @@
 import React from 'react';
-import Titlepage from '../../components/UI/Title/TitlePage';
+import TitlePage from '../../components/UI/Title/TitlePage';
 
 const Index = () => {
     return (
         <div>
-            <Titlepage title="About page"/>
+            <TitlePage title="About page"/>
         </div>
     );
 }
