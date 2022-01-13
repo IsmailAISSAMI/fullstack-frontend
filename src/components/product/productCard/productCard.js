@@ -1,4 +1,4 @@
-import styles from './ProductCard.module.sass';
+import styles from './productCard.module.sass';
 
 const ProductCard = props => {
     return(
