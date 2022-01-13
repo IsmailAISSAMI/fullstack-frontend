@@ -1,5 +1,3 @@
-import styles from './productCard.module.sass';
-
 const ProductCard = props => {
     return(
         <div key={props.key}>

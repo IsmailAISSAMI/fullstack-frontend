@@ -1,7 +1,6 @@
 import { getProducts } from "../../../graphql/queries/products";
 import { useQuery } from "@apollo/react-hooks";
 import ProductCard from "../productCard/productCard";
-import styles from "./productGrid.module.sass";
 
 const ProductGrid = () => {
     const { loading, error, data } = useQuery(getProducts);
